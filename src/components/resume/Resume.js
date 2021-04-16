@@ -88,6 +88,33 @@ export default function Resume(props) {
           </div>
         </div>
       </div>
+      <div className="row skill">
+        <div className="three columns header-col">
+          <h1>
+            <span>Languages</span>
+          </h1>
+        </div>
+
+        <div className="nine columns main-col">
+          <p>{resumeData.skillsDescription}</p>
+
+          <div className="bars">
+            <ul className="skills">
+              {resumeData.languages &&
+                resumeData.languages.map((item, index) => {
+                  return (
+                    <li key={index}>
+                      <span
+                        className={`bar-expand ${item.cssName.toLowerCase()}`}
+                      ></span>
+                      <em>{item.skillname}</em>
+                    </li>
+                  );
+                })}
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

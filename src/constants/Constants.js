@@ -51,47 +51,7 @@ const resumeData = {
     },
   ],
   skillsDescription: "",
-  skills: [
-    {
-      cssName: "eighty",
-      skillname: "HTML & CSS",
-    },
-    {
-      cssName: "eighty",
-      skillname: "React",
-    },
-    {
-      cssName: "seventy",
-      skillname: ".NET",
-    },
-    {
-      cssName: "seventy",
-      skillname: "C#",
-    },
-    {
-      cssName: "fifty",
-      skillname: "Python",
-    },
-    {
-      cssName: "eighty",
-      skillname: "SQL",
-    },
-    {
-      cssName: "seventy",
-      skillname: "T-SQL",
-    },
-    {
-      cssName: "seventy",
-      skillname: "Java",
-    },
-    {
-      cssName: "sixty",
-      skillname: "TypeScript",
-    },
-    {
-      cssName: "fifty",
-      skillname: "React Redux",
-    },
+  languages: [
     {
       cssName: "hundred",
       skillname: "Swedish",
@@ -103,6 +63,50 @@ const resumeData = {
     {
       cssName: "forty",
       skillname: "Spanish",
+    },
+  ],
+  skills: [
+    {
+      cssName: "ninety",
+      skillname: "React",
+    },
+    {
+      cssName: "ninety",
+      skillname: "HTML & CSS",
+    },
+    {
+      cssName: "eighty",
+      skillname: "SQL",
+    },
+    {
+      cssName: "seventy",
+      skillname: ".NET",
+    },
+    {
+      cssName: "seventy",
+      skillname: "C#",
+    },
+    {
+      cssName: "seventy",
+      skillname: "T-SQL",
+    },
+    {
+      cssName: "seventy",
+      skillname: "Java",
+    },
+
+    {
+      cssName: "sixty",
+      skillname: "TypeScript",
+    },
+
+    {
+      cssName: "sixty",
+      skillname: "React Redux",
+    },
+    {
+      cssName: "fifty",
+      skillname: "Python",
     },
   ],
   portfolio: [
