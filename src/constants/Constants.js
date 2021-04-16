@@ -72,6 +72,10 @@ const resumeData = {
     },
     {
       cssName: "ninety",
+      skillname: "JavaScript",
+    },
+    {
+      cssName: "ninety",
       skillname: "HTML & CSS",
     },
     {
