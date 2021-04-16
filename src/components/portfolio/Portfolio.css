@@ -1,0 +1,19 @@
+.work {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.workItem {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.workImages {
+  max-height: 200px;
+  max-width: 400px;
+}
